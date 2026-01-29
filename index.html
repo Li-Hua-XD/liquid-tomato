@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Liquid Tomato</title>
+</head>
+<body>
+    <div class="container">
+        <div class="timer-circle">
+            <svg width="300" height="300">
+                <circle cx="150" cy="150" r="140" class="base-circle"></circle>
+                <circle cx="150" cy="150" r="140" class="progress-ring" id="progress"></circle>
+            </svg>
+            <div class="time-display" id="time">25:00</div>
+        </div>
+        
+        <div class="controls">
+            <button id="start">开始</button>
+            <button id="reset">重置</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
